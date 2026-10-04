@@ -69,10 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => observer.observe(el));
   }
 
-  // Affiliate click logging (analytics hook)
+  // Affiliate click tracking (Google Analytics)
   document.querySelectorAll('[data-affiliate]').forEach(link => {
     link.addEventListener('click', () => {
-      console.info('[affiliate click]', link.dataset.affiliate);
+      if (typeof window.trackAffiliateClick === 'function') {
+        window.trackAffiliateClick(link.dataset.affiliate, link.href);
+      }
     });
   });
 
