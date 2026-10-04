@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# صفحات إدارية / مصادر غير مطلوبة في البحث
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /build-css.js
+
+Sitemap: https://ahmeddiab120.github.io/health-affiliate-site/sitemap.xml
