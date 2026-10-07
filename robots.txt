@@ -7,4 +7,4 @@ Disallow: /src/
 Disallow: /*.json$
 Disallow: /build-css.js
 
-Sitemap: https://ahmeddiab120.github.io/health-affiliate-site/sitemap.xml
+Sitemap: https://ahmeddiab120.github.io/sehatak/sitemap.xml

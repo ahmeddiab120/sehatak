@@ -9,7 +9,7 @@
 ## 📁 Structure
 
 ```
-health-affiliate-site/
+sehatak/
 ├── index.html              # Landing page
 ├── css/
 │   └── style.css           # Full stylesheet
@@ -33,10 +33,10 @@ health-affiliate-site/
 ## 🚀 Setup (15 دقائق)
 
 ### 1. GitHub Pages
-1. أنشئ ريبو على GitHub باسم `health-affiliate-site`
+1. أنشئ ريبو على GitHub باسم `sehatak`
 2. ارفع كل الملفات
 3. Settings → Pages → Source: `main` branch
-4. الموقع هيطلع على: `https://username.github.io/health-affiliate-site`
+4. الموقع هيطلع على: `https://ahmeddiab120.github.io/sehatak`
 
 ### 2. Supabase
 1. سجّل على [supabase.com](https://supabase.com)
